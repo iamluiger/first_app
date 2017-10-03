@@ -4,8 +4,8 @@ pipeline {
     stage('klj') {
       steps {
         pwd(tmp: true)
-        echo 'ñl'
-        sh 'nada'
+        echo 'Ã±l'
+        sh 'echo "Hola"'
       }
     }
     stage('lio') {
